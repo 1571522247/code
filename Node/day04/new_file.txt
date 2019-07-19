@@ -1,0 +1,43 @@
+express 
+定义：基于Node封装的上层服务器
+核心：
+中间件
+路由
+提供Api
+简单的路由实现
+路径不区分大小写
+
+app.get
+parsms接受动态路由参数   /：id
+query 接受get方式传过来的值 ?name=tom&age=12
+静态资源服务器
+app.use()  使用  中间件  插件
+express.static()
+path.resolve(__dirname,"public")
+app.use(express.static)
+app.post
+
+中间件
+ body-parser
+
+
+下周  
+koa
+mongodb
+
+
+gir    分布式管理系统    github       码云
+
+本地区   暂存区   服务区
+
+svn集中式    本地区     服务区
+
+git  init   项目初始化
+git status  查看当前项目状态
+校验身份
+git config --global user.name  ""  校验
+git config --global user.email  ""
+git add .	添加所有文件    git add <file>  <file>
+git commit -m  "注释"  提交    暂存区
+git remote add origin
+git puth -u origin master
